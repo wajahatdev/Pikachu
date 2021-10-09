@@ -9,12 +9,17 @@ void IA()
 	cout<<endl;
 }
 
-int main ()
+void Lub()
 {
-	IA();
 	for (int i=0;i<5;i++)
 		cout<<"I love Pakistan."<<endl;
 	cout<<endl;
+}
+
+int main ()
+{
 	IA();
-	//Wajahat Shahid
+	Lub();
+	IA();
+	//M. Wajahat Shahid
 }
