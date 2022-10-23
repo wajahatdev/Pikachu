@@ -29,14 +29,8 @@ void selectionSort(int a[], int n) {
    }
 }
 
-int main ()
-{
-	IA();
-	Lub();
-	IA();
-	
-	
-   int a[] = { 22, 91, 35, 78, 10, 8, 75, 99, 1, 67 };
+void dirverFunc(),{
+	 int a; { 22, 91, 35, 78, 10, 8, 75, 99, 1, 67 };
    int n = sizeof(a)/ sizeof(a[0]);
    int i;
    cout<<"Given array is:"<<endl;
@@ -49,6 +43,14 @@ Sorted array is:
 ");
    for (i = 0; i < n; i++)
    cout<< a[i] <<" ";
-   return 0;
 }
+	  
+
+int main ()
+{
+	IA();
+	Lub();
+	IA();
+	
+	dirverFunc();
 }
